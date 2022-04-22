@@ -228,8 +228,8 @@
           "description": "The override language of a conversation item in BCP 47 language representation.",
           "type": "string"
         },
-        "modality": {
-          "$ref": "#/definitions/Modality"
+        "inputModality": {
+          "$ref": "#/definitions/InputModality"
         },
         "role": {
           "type": "string",
@@ -1415,7 +1415,7 @@
         }
       }
     },
-    "Modality": {
+    "InputModality": {
       "type": "string",
       "description": "Enumeration of supported conversational modalities.",
       "enum": [
@@ -1423,7 +1423,7 @@
         "text"
       ],
       "x-ms-enum": {
-        "name": "Modality",
+        "name": "InputModality",
         "modelAsString": true
       }
     }
